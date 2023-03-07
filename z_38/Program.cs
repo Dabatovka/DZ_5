@@ -2,7 +2,7 @@
 // Найдите разницу между мах и min элементами массива.
 
 
-Console.WriteLine("Введите размер массива:");
+Console.WriteLine("Введите размер массива: ");
 int n = Convert.ToInt32(Console.ReadLine()); // Задаём размер массива
 int [] mass  = new int[n];      // Создаём массив
 for (int i = 0; i < n; i++)
